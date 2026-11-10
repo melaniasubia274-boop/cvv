@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sheyla Banegas | Técnica en Informática y Desarrollo Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENÚ -->
+  <header class="navbar">
+    <a href="#inicio" class="logo">SB</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    <nav id="menu">
+      <a href="#perfil">Perfil</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#fortalezas">Fortalezas</a>
+    </nav>
+  </header>
+
+  <!-- INICIO -->
+  <section class="hero" id="inicio">
+    <div class="foto-box">
+      <img src="foto.jpg" alt="Foto de Sheyla Banegas" id="foto">
+      <span class="iniciales" id="iniciales">SB</span>
+    </div>
+    <div class="hero-texto">
+      <p class="saludo">Hola, soy</p>
+      <h1>Sheyla Melania Nélida Banegas</h1>
+      <h2 id="escribiendo"></h2>
+      <p class="lugar">📍 Santa Lucía, Puno – Perú</p>
+      <a href="#proyectos" class="boton">Ver mis proyectos</a>
+    </div>
+  </section>
+
+  <main>
+    <!-- PERFIL -->
+    <section id="perfil" class="seccion oculto">
+      <h2 class="titulo">Perfil</h2>
+      <p class="texto-grande">
+        Técnica en Informática con conocimientos en páginas web, redes y
+        proyectos con Arduino. Responsable, puntual y con ganas de trabajar.
+      </p>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="seccion oculto">
+      <h2 class="titulo">¿En qué soy buena?</h2>
+      <div class="tarjetas">
+        <div class="tarjeta">
+          <span class="icono">🌐</span>
+          <h3>Aplicaciones web</h3>
+        </div>
+        <div class="tarjeta">
+          <span class="icono">🎬</span>
+          <h3>Producción Audiovisual y Multimedia</h3>
+        </div>
+      </div>
+
+      <h2 class="titulo subtitulo">Lenguajes</h2>
+      <div class="chips">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python básico</span>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="seccion oculto">
+      <h2 class="titulo">Mis proyectos</h2>
+      <div class="tarjetas">
+        <div class="tarjeta">
+          <span class="icono">🎨</span>
+          <h3>Página web con diseño CSS</h3>
+        </div>
+        <div class="tarjeta">
+          <span class="icono">🤖</span>
+          <h3>Proyecto con Arduino</h3>
+        </div>
+        <div class="tarjeta">
+          <span class="icono">🔌</span>
+          <h3>Proyecto de redes</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="seccion oculto">
+      <h2 class="titulo">Prácticas / Experiencia</h2>
+      <div class="linea-tiempo">
+        <div class="item-tiempo">
+          <h3>Prácticas en soporte técnico y redes</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORTALEZAS -->
+    <section id="fortalezas" class="seccion oculto">
+      <h2 class="titulo">Fortalezas</h2>
+      <div class="chips">
+        <span class="chip">Aprendo rápido</span>
+        <span class="chip">Trabajo en equipo</span>
+        <span class="chip">Responsable y puntual</span>
+        <span class="chip">Creativa y ordenada</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="anio"></span> Sheyla Melania Nélida Banegas · Santa Lucía, Puno – Perú</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
